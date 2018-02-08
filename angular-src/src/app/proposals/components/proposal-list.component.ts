@@ -12,7 +12,7 @@ import {IProposal} from "../interfaces/proposal";
 })
 export class ProposalListComponent implements OnInit {
 // @Input() proposals?: IProposal[];
-  title: String = "Proposals";
+  title: String = "Projects";
   @Input() proposals: IProposal[];
   filteredProposals: IProposal[];
   selectedProposal: IProposal;

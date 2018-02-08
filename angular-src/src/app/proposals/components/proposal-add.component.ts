@@ -17,7 +17,7 @@ import {IUser} from "../../users/interfaces/user";
 })
 export class ProposalAddComponent implements OnInit {
 
-  title: String = "Create Proposal";
+  title: String = "Create Project";
   proposalForm: FormGroup;
   sectors: ISector;
   proposal: IProposal;
