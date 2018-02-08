@@ -13,7 +13,8 @@ import {BioAddComponent} from './components/bio-add.component';
 import {BioListComponent} from './components/bio-list.component';
 import {BioListResolverService} from "./services/bio-list-resolver.service";
 import {SharedModule} from "../shared/shared.module";
-import { BioPdfComponent } from './components/bio-pdf.component';
+import {ImageCropperModule} from "ng2-img-cropper";
+import {BioPdfComponent} from './components/bio-pdf.component';
 
 @NgModule({
   imports: [
@@ -50,6 +51,7 @@ import { BioPdfComponent } from './components/bio-pdf.component';
     FormsModule,
     MatDatepickerModule,
     MatNativeDateModule,
+    ImageCropperModule,
     SharedModule
   ],
   declarations: [BioAddComponent, BioEditComponent, BioListComponent, BioPdfComponent],

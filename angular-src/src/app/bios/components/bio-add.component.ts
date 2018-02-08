@@ -9,8 +9,7 @@ import {Router, ActivatedRoute} from "@angular/router";
 // OTHER IMPORTS                 =========================
 // =======================================================
 import {ViewChild} from "@angular/core";
-import {ImageCropperComponent} from "ng2-img-cropper";
-import {CropperSettings} from 'ng2-img-cropper';
+import {ImageCropperComponent, CropperSettings} from "ng2-img-cropper";
 import UIkit from 'uikit'
 // =======================================================
 // SERVICE IMPORTS               =========================

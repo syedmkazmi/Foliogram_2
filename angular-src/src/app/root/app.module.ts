@@ -29,6 +29,7 @@ import {UsersModule} from "../users/users.module";
 import {SharedModule} from "../shared/shared.module";
 import {DashboardModule} from "../dashboard/dashboard.module";
 import {DashboardService} from "../dashboard/services/dashboard.service";
+import {ImageCropperModule} from "ng2-img-cropper";
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import {DashboardService} from "../dashboard/services/dashboard.service";
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    ImageCropperModule,
     SharedModule,
     AuthenticationModule,
     HttpClientModule,

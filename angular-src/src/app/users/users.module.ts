@@ -8,6 +8,7 @@ import {ReactiveFormsModule} from "@angular/forms";
 import {MatNativeDateModule, MatDatepickerModule, MatFormFieldModule, MatInputModule} from "@angular/material";
 import {SectorResolverService} from "../root/services/sector-resolver.service";
 import {SharedModule} from "../shared/shared.module";
+import {ImageCropperModule} from "ng2-img-cropper";
 
 @NgModule({
   imports: [
@@ -25,6 +26,7 @@ import {SharedModule} from "../shared/shared.module";
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
+    ImageCropperModule,
     SharedModule
   ],
   declarations: [UserEditComponent],
